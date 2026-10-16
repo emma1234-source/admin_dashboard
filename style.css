@@ -49,12 +49,52 @@ body{
     display: flex;
     flex-direction: row;
     align-items: left;
+    gap: 10px;
     padding-top: 20px;
     padding-left: 20px;
     font-size: 2rem;
     color: black;
     font-weight: bold;
 }
+
+.sidebar_block_1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar_block_2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:3;
+    grid-row-end:4;
+    padding-left: 30px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar_link{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 10px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar_link img{
+    height: 1.5rem;
+    width: auto;
+}
+
+
 
 .logo_area img{
     height: 2rem;
