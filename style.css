@@ -107,6 +107,108 @@ body{
     grid-row-start:1;
     grid-row-end:2;
     background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1f 1f;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+.search_container{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.search_container img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 1 rem;
+    width: auto;
+}
+
+.search_container input{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: grey;
+}
+
+.user_name{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    
+}
+
+.user_name img{
+    height: 1rem;
+    width: auto;
+}
+
+.user_name p{
+    font-size: 1.5rem;
+}
+
+.hi_there{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-items: left;
+    gap: 40px;
+}
+
+.hi_there img{
+    height: 2rem;
+    width: auto;
+}
+
+.hi_there_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;   
+}
+
+.hi_there_1{
+    font-size: 0.5 rem;
+}
+
+.hi_there_2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header_buttons{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.header_buttons button{
+    background-color: #87CEEB;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 20%;
 }
 
 .content{
